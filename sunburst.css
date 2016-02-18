@@ -1,0 +1,65 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #fff;
+  width: 960px;
+  height: 700px;
+  margin-top: 10px;
+}
+
+#main {
+  float: left;
+  width: 750px;
+  text-align: center;
+}
+
+#sidebar {
+  float: right;
+  width: 100px;
+  text-align: center;
+}
+
+#pathway {
+  width: 600px;
+  height: 70px;
+  text-align: center;
+}
+
+#legend {
+  padding: 10px 0 0 3px;
+  text-align: center;
+}
+
+#pathway text, #legend text {
+  font-weight: 600;
+  fill: #fff;
+}
+
+#graph {
+  position: relative;
+  text-align: center;
+}
+
+#graph path {
+  stroke: #fff;
+}
+
+#text {
+  position: absolute;
+  top: 260px;
+  left: 305px;
+  width: 140px;
+  text-align: center;
+  color: #666;
+  z-index: -1;
+}
+
+#percent {
+  font-size: 2.5em;
+}
+
+#leg {
+  font-size: 1.3em;
+  font-weight: bold ;
+}
